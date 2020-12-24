@@ -11,11 +11,12 @@ package proyectogitgub;
  */
 public class ProyectoGitgub {
 
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println(saludo() + getUsername());
+        System.out.println(saludo() + getUsername()  + " y su edad es : " + agregamosEdad());
     }
     
     private static String saludo(){
@@ -26,4 +27,7 @@ public class ProyectoGitgub {
     private static String getUsername(){
         return "Arturo";
     }
+    
+    private static int agregamosEdad(){
+        return 24;
 }
