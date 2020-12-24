@@ -15,11 +15,15 @@ public class ProyectoGitgub {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println(saludo());
+        System.out.println(saludo() + getUsername());
     }
     
     private static String saludo(){
         return "Hola a todos ";
     }
-
+    
+    
+    private static String getUsername(){
+        return "Arturo";
+    }
 }
